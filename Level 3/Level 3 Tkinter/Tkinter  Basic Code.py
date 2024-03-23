@@ -612,6 +612,7 @@ redframe.pack(side=RIGHT)
 ç
 root.mainloop()'''
 
+'''
 def NA():
     pass
 
@@ -632,8 +633,9 @@ while True:
     currentindia=datetime.now(indiatimezone)
     final_time=currentindia.strftime('%Y-%m-%d %l:%M:%S %p %Z')
     timevar.set(final_time)
+    ##
 
-    root.update()
+    root.update()'''
 
 
 
